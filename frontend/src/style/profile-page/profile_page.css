@@ -1,0 +1,75 @@
+.profile-page {
+  padding: 50px;
+}
+
+.profile-page .title {
+  display: inline-block;
+  background: -webkit-gradient(linear, right top, left top, from(#003060), color-stop(#6F04FC), to(orange));
+  background: linear-gradient(to left, #003060, #6F04FC, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile-page .title h1 {
+  display: inline-block;
+}
+
+.profile-page .title h1:nth-child(2) {
+  font-size: 1.7rem;
+  margin-left: 10px;
+}
+
+.profile-page .summary {
+  width: 16%;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-page .summary .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-page .summary .category h4 {
+  font-size: 1rem;
+  font-family: 'Poppins-Light';
+}
+
+.profile-page .summary .category h4:nth-child(1) {
+  color: rgba(111, 4, 252, 0.5);
+}
+
+.profile-page .summary .category h4:nth-child(2) {
+  color: #0050a0;
+  margin-left: 10px;
+}
+
+.profile-page .profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-position: right !important;
+  background-size: cover !important;
+}
+
+.profile-page h5 {
+  color: #6F04FC;
+  font-size: 1rem;
+  font-family: Poppins-Light;
+}
+
+.profile-page h4 {
+  color: #003060;
+  font-size: 1rem;
+  font-family: Poppins-Light;
+}
+/*# sourceMappingURL=profile_page.css.map */

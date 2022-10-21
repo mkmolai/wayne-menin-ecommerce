@@ -1,0 +1,899 @@
+@import './css/fonts/fonts.css';
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+
+/* .content{
+  position: absolute;
+  left: 0; top: 22%;
+  margin: 40px;
+  padding: 20px; 
+  width: 100%; height: 70%;
+  background: white;
+  border-radius: 20px;
+  overflow: scroll;
+} */
+/* .contacts-page{
+  position: relative;
+} */
+/* // Header ------------------------------- ------------------------------------ */
+.wm-flash-container{
+  width: 100%; height: 30px;
+  background: linear-gradient(to left, #001326,#003060,#6F04FC);
+}
+.wm-navbar{
+  background: #001326 !important;
+  height: 90px;
+}
+.wm-navbar .drop-link{
+  font-size: 1rem !important;
+}
+.dpd {
+  color: #6F04FC !important;
+}
+
+.wm-logo{
+  width: 40%;
+}
+
+a{
+  color: #0050a0 !important;
+  transition: all ease-in-out .2s;
+  font-size: 1.5rem !important;
+  font-family: Poppins-Light;
+}
+.active{
+  color: #6F04FC !important;
+}
+a:hover{
+ color: #6F04FC!important;
+}
+.nav-link{
+  /* color: rgb(202, 212, 221)!important; */
+  color: #6499ce !important;
+  font-family: Poppins-Light;
+  font-size: 1.2rem !important;
+}
+.active.nav-link{
+  color: white;
+  border-bottom: #6F04FC 2px solid;
+}
+
+/* // Header end ------------------------------- ------------------------------------ */
+
+/* // First visual ------------------------------- ------------------------------------ */
+.wm-first-visual-lining{
+  position: relative;
+  width: 100vw; height: 400px;
+  background: linear-gradient(to left, #6F04FC, #001326);
+  overflow: hidden;
+}
+.wm-first-visual{
+  position: absolute;
+  width: 100%; height: 400px;
+  background: linear-gradient(to right, white, darkgrey);
+  top: 3%; left: 1%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px lightgray;
+  overflow: hidden;
+}
+.wm-first-visual-items{
+  position: relative;
+  width: 100vw;
+  height: 400px;
+}
+.wm-first-visual-logo{
+  position: absoulte;
+  top: 50%;
+  width: 50%;
+}
+.wm-first-visual-logo img{
+  position: absolute;
+  top: 35%; left: 10%; 
+  width: 20%;
+}
+.wm-first-visual-btn{
+  position: absolute;
+  width: 100vw; height: 400px;
+  top: 80%; left: 15%;
+}
+
+.wm-cta-all{
+  background: linear-gradient(to left, #6F04FC, #003060);
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  transition: all .2s;
+}
+.wm-cta-all:hover{
+  background: linear-gradient(to left, #003060, #003060);
+}
+.wm-first-visual-img{
+  position: absolute;
+  top: 0; right: 0;
+  width: 100%;
+}
+.wm-first-visual-img img{
+  position: absolute;
+  top: 0; right: 0;
+  width: 70%;
+}
+
+
+@media screen and (width: 600px)
+{
+  .wm-first-visual-logo img{
+    position: absolute;
+    top: 20%; left: 25%; 
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1340px)
+{
+  .wm-first-visual-logo{
+    position: absoulte;
+    top: 30%; left: 50%;
+    width: 100%;
+  }
+
+  .wm-first-visual-logo img{
+    position: absolute;
+    top: 20%; left: 20%; 
+    width: 60%;
+  }
+
+    .wm-first-visual-img img{
+      position: absolute;
+      top: 0; right: 0;
+      width: 100%;
+      display: none;
+    }
+
+}
+/* // First visual end ------------------------------- ------------------------------------ */
+
+/* // New arrivals ------------------------------- ------------------------------------ */
+
+.cardw-lining {
+  position: relative;
+  background: linear-gradient(to left, #6F04FC, #001326);
+  height: 170px;
+  border-radius: 15px;
+  transition: .3s ease-in all;
+  margin-bottom: 70px;
+}
+.cardw-lining:hover {
+  background: linear-gradient(to left, #6F04FC, #6F04FC);
+  transform: translateY(-10px)
+}
+.cardw-lining:hover .cardw-lining-label p{
+  color: #6F04FC !important;
+}
+.cardw-lining2{
+  position: relative;
+  background: linear-gradient(to left, #6F04FC, #001326);
+  height: 300px;
+  border-radius: 15px;
+}
+.helper{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cardw-lining-content{
+  position: relative;
+  top: 2%; left: 2%;
+  width: 100%; height: 100%;
+  background: white;
+  box-shadow: 2px 2px 8px lightgray;
+  border-radius: 11px;
+}
+.cardw-lining-content .cardw-lining-img{
+  position: absolute;
+  background: none;
+  background-position: center;
+  background-size: contain !important;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; height: 90%;
+  /* padding: 100px; */
+  border-radius: 11px;
+  border: 1px solid white;
+  mix-blend-mode: normal;
+
+} 
+
+.cardw-lining-img img{
+  width: 50%;
+  object-fit: fill;
+
+  object-position: center;
+}
+.cardw-lining2-content{
+  position: absolute;
+  top: 2%; left: 2%;
+  width: 100%; height: 100%;
+  background: white;
+  box-shadow: 2px 2px 8px lightgray;
+  border-radius: 15px;
+}
+
+.cardw-lining2-img{
+  width: 100%; height: 100%;
+  /* background: pink; */
+}
+.cardw-lining2-img img{
+  width: 100%;
+}
+
+
+.cardw-lining-label{
+  position: absolute;
+  top: 103%; left: 0%;
+  width: 100%; 
+  transform: translate(5%, 0%);
+}
+.cardw-lining-label p{
+  color: #001326 !important;
+  font-size: 1rem;
+  font-family: Poppins-Light;
+}
+
+.cardw-lining-label a{
+color: white !important;
+background: linear-gradient(to left, #6F04FC, #001326);
+border-radius: 6px;
+text-align: center;
+font-size: 1rem !important;
+box-shadow: 1px 1px 5px grey;
+font-family: Poppins-Medium;
+}
+.cardw-lining-label a:hover{
+color: white !important;
+/* background: #001326; */
+background: linear-gradient(to left, #001326, #001326);
+text-decoration: none;
+}
+
+.cardw-lining2-label{
+  position: absolute;
+  top: 100%; left: 0;
+  text-align: left;
+} 
+.cardw-lining2-label p{
+  text-align: left;
+  color: white;
+  background: linear-gradient(to left, #6F04FC, #001326);
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  padding: 10px 20px;
+}
+.cardw-lining2-label h5{
+  text-align: left;
+  color: #001326;
+  font-family: Poppins-Light;
+}
+.only-at-wm{
+  margin-top: 90px;
+  border-top: #6F04FC 1px solid;
+  border-bottom: #6F04FC 1px solid;
+  padding: 20px;
+  color: #003060;
+}
+.w{
+  font-family: Saira;
+  color: #6F04FC;
+}
+.m{
+  font-family: Saira;
+}
+/* // New arrivals end------------------------------- ------------------------------------ */
+/* // Big Ad------------------------------- ------------------------------------ */
+.big-home-ad{
+  position: relative;
+  background: linear-gradient(60deg, #6F04FC, #001326);
+  width: 80%; height: 600px;
+}
+.big-home-ad h4{
+  font-family: Poppins;
+  font-size: 5rem;
+  color: white;
+}
+.big-home-ad p{
+  color: rgb(180, 180, 180);
+}
+.big-home-ad .ad-image{
+  position: absolute;
+  top: 10%; right: -5%;
+  width: 40%; height: 100%;
+  color: rgb(180, 180, 180);
+}
+.big-home-ad .ad-image img{
+  width: 100%;
+  
+}
+.big-home-ad button{
+  position: absolute;
+  bottom: 10%; left: 5%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: white;
+  font-size: 1.2rem;
+  font-family: Poppins-Medium;
+
+}
+/* // Big Ad end------------------------------- ------------------------------------ */
+/* // Headgear------------------------------- ------------------------------------ */
+.title-lining{
+  position: relative;
+  width: 100vw; height: 107px;
+  background: linear-gradient(to left, #6F04FC, #001326);
+}
+
+.title-space{
+  position: absolute;
+  width: 100vw; height: 100px;
+  background: linear-gradient(to right, white, aliceblue);
+  top: 3%; left: 1%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px lightgray;
+  overflow: hidden;
+}
+.title-space.contact{
+  background: linear-gradient(to right, #003060, #001326);
+}
+
+.title-space.contact .title-text h2{
+  background: linear-gradient(to left, #003060, #0050a0);
+  color: white;
+}
+.title-text span{
+  color: #6499ce;
+  font-family: Poppins-Light;
+  font-size: 2rem;
+  opacity: .3;
+}
+.title-text h2{
+  display: inline;
+  background: linear-gradient(to right, #6F04FC, #001326);
+  color: white;
+  font-family: Saira;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.product-range-buttons{
+  position: relative;
+  left: 50%;
+  margin-top: 30px;
+  padding: 7px 7px;
+  width: 75vw !important;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-evenly;
+  background: #FAF6FF; 
+  width: 100%;
+  color: #003060;
+  border-radius: 5px;
+}
+
+.product-range-buttons button{
+  background: rgba(240, 231, 252,.4);
+  width: 32%;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-family: Poppins-Light;
+  color: #003060;
+}
+.product-range-buttons button:hover{
+  background: #003060;
+  color: white;
+}
+.product-range-buttons .button-active{
+  background: #6F04FC;
+  color: white;
+}
+.ll{
+  background: #003060;
+}
+.product-card{
+  width: 100%;
+}
+.product-card-content{
+  position: relative;
+  top:0; left: 0;
+  border-radius: 15px;
+  background: rgba(100, 153, 206, .06);
+  /* background: rgb(242, 240, 245); */
+  width: 100%; height: 250px;
+  border-radius: 15px;
+}
+/* .product-card-img{
+  position: absolute;
+  top: 0; left: 0;
+  background: teal;
+  width: 100%; height: 100%;
+} */
+.product-card-content .product-card-img{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  object-fit: cover;
+  object-position: center;
+  transition: all .3s ease-in-out;
+  mix-blend-mode: multiply;
+}
+
+.product-card-content .product-card-img:hover{
+  /* transform: none; */
+}
+/* .product-card-content img{
+  position: absolute;
+  top: 0px; left: 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all .3s ease-in-out;
+} */
+/* .product-card-content img:hover{
+  transform: translateY(-20px);
+} */
+.product-card-content:hover  .product-card-label h3{
+  color: #6F04FC !important;
+}
+
+.product-card-label{
+  position: absolute;
+  top: 85%; left: 0%;
+  width: 90%; 
+  transform: translate(5%, 0%)
+}
+
+.product-card-label{
+  position: absolute;
+  top: 100%; left: 0;
+  text-align: left;
+}
+.product-card-label h3{
+  text-align: center;
+  color: #001326;
+  font-family: Saira;
+}
+.product-card-label h5{
+  text-align: left;
+  color: #001326;
+  font-family: Poppins-Light;
+}
+.product-card-label .add-to-cart h5{
+  text-align: left;
+  color: #001326;
+  font-family: Poppins-Medium;
+}
+
+
+.product-card .add-to-cart {
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #6F04FC;
+}
+
+.product-card-label button{
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: none; 
+  margin: 0;
+  transition: all ease-in .3s;
+}
+.product-card-label button:hover{
+  outline: none;
+  border: none;
+  padding: 0 10px;
+  background: #6F04FC;
+  color: white;
+  margin: 0;
+}
+.product-card .in-stock-qty{
+  color: #0050a0;
+}
+
+.sort{
+  background: #FAF6FF;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+.sort:hover{
+  background: #003060;
+  color: white;
+}
+#dropdown-item-button{
+  background: #FAF6FF;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  color: #003060;
+}
+#dropdown-item-button:hover{
+  background: #003060;
+  color: white;
+}
+/* // Headgear end------------------------------- ------------------------------------ */
+/* // Product description ------------------------------- ------------------------------------ */
+.product-description{
+
+}
+.product-description h1{
+  font-family: Saira;
+}
+.product-description h3{
+  font-family: Poppins-Light;
+}
+.product-description p{
+  color: grey;
+  font-family: Poppins-Light;
+}
+.product-description h2{
+  font-family: Poppins;
+  color: #003060;
+}
+.product-description .add-to-cart{
+  position: relative;
+  background: linear-gradient(to right, #6F04FC, #001326);
+  color: white;
+  width: 30%; height: 55px;
+  border-radius: 10px;
+}
+.product-description .add-to-cart button{
+  border: none;
+  background: none;
+  color: wheat;
+}
+.product-description .add-to-cart button:hover{
+  color: #6F04FC;
+}
+.product-description .add-to-cart .label{
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  color: #6F04FC;
+  border: 1px solid #6F04FC;
+}
+.product-description .add-to-cart .label:hover{
+  background: #003060;
+  color: wheat;
+}
+/* // Product description end------------------------------- ------------------------------------ */
+footer{
+  /* position: fixed;
+  top: 100% !important; */
+  width: 100vw; height: 400px;
+  background: #001326;
+}
+
+/* // Login ------------------------------- ------------------------------------ */
+
+.login{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  background: white;
+  overflow: hidden;
+}
+
+.login .wm-navbar-login{
+  background:linear-gradient(to right, #6F04FC,#001326) !important;
+}
+
+.login .wm-navbar-login .wm-logo{
+  width: 50%;
+}
+
+.login .wm-navbar-login .user-name a{
+  font-family: Poppins !important;
+}
+.login .wm-navbar-login .user-name, .in{
+  color: #6F04FC !important;
+}
+
+.login .title-lining-login{
+  position: relative;
+  width: 100vw; height: 100px;
+  background: linear-gradient(to left, #6F04FC, #6F04FC);
+}
+
+.login .title-lining-login .title-space{
+  width: 100vw; height: 100px;
+  background: linear-gradient(to right, white, white);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px lightgray;
+  overflow: hidden;
+}
+
+.login .title-lining-login .title-space .login-title{
+  font-size: 4rem;
+  font-family: Poppins;
+  background: linear-gradient(to right, #6F04FC,#003060);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.login .wm-form{
+  margin-top: 30px;
+  border: 2px solid #6F04FC;
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%;
+  box-shadow: 1px 0 10px rgb(194, 194, 255);
+  /* transform: translateX(50%) */
+}
+.login .wm-form button{
+  background: linear-gradient(to right, #6F04FC,#003060);
+  width: 100%;
+}
+.wm-form .title{
+  display: inline-block;
+  background: linear-gradient(to left, #6F04FC,#003060);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wm-form h1{
+  font-family: Poppins-Medium;
+  font-size: 1.4rem;
+}
+.wm-form hr{
+  border-color:#0050a0;
+  margin: 10px 0;
+  opacity: .4;
+}
+/* // Login end------------------------------- ------------------------------------ */
+.wm-form button{
+  background: linear-gradient(to right, #6F04FC,#003060);
+  width: 100%;
+}
+
+.wm-form{
+  border: 2px solid #6F04FC;
+  padding: 20px;
+  border-radius: 20px;
+  width: 40%;
+  box-shadow: 1px 0 10px rgb(194, 194, 255);
+  transform: translateX(50%);
+}
+
+
+
+
+/* // Cart------------------------------- ------------------------------------ */
+
+
+/* // Cart end------------------------------- ------------------------------------ */
+
+/* // Contact ------------------------------- ------------------------------------ */
+.contact{
+
+}
+.contact h1{
+  font-family: Poppins-Light;
+  color: #6F04FC;
+  font-size: 1.7rem;
+}
+.contact h3{
+  font-family: Poppins-Medium;
+  font-size: 1.2rem;
+  color: #003060;
+}
+.contact h4{
+  font-family: Poppins-Light;
+  font-size: 1rem;
+}
+.contact-us{
+  width: 100%;
+  border-radius: 20px;
+}
+/* // Contact end------------------------------- ------------------------------------ */
+
+/* // Form ------------------------------- ------------------------------------ */
+
+/* // Form end------------------------------- ------------------------------------ */
+
+.product-details-image
+{
+  width: 100%;
+}
+
+.color-palette{
+  width: 30%; 
+}
+.color-palette div{
+  width: 20px; height: 20px;
+}
+
+.delivery-time-row{
+  border-top: .5px solid #003060;
+  border-bottom: .5px solid #003060;
+}
+
+.delivery-time-row h5{
+  color: #003060;
+}
+
+.delivery-time-row p{
+  font-size: 1.3rem;
+  color: rgb(255, 196, 0);
+}
+
+.profile-image  img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+/* // Blog ------------------------------- ------------------------------------ */
+
+.blog-card{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+.blog-card-img{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+.blog-card-img img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.blog-card-details{
+  position: absolute;
+  top: 50%;
+  color: #FAF6FF;
+}
+.blog-card-details hr{
+  border: 2px solid white;
+}
+/* // Blog end------------------------------- ------------------------------------ */
+
+/* // Blog-mini_card------------------------------- ------------------------------------ */
+.blog-mini_card{
+  background: #EFF7FF;
+  height: 90px; width: 400px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px  lightblue;
+  transition: all .3s ease-in-out;
+}
+.blog-mini_card:hover{
+  background: #003060;
+  transform: translateY(-10px);
+}
+.blog-mini_card:hover h6{
+  color: white;
+}
+.blog-mini_card:hover hr{
+  border: .5px solid white;
+}
+.blog-mini_card *{
+  margin: 0;
+  padding: 0;
+}
+.blog-mini_card-items{
+  width: 100%; height: 100%;
+}
+.blog-mini_card-img{
+  height: 100%; width: 100%;
+}
+.blog-mini_card-img  img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+.blog-mini_card-details{
+  width: 100%;
+}
+.blog-mini_card-details .heading{
+  color: #003060;
+  font-weight: 700;
+}
+.blog-mini_card-details .tag{
+  color:gray;
+  font-weight: 700;
+}
+.blog-mini_card-details h6{
+  color: #003060;
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+/* // Blog-mini_card end------------------------------- ------------------------------------ */
+/* // Blog-story ------------------------------- ------------------------------------ */
+.blog-story{
+  height: 900px;
+}
+/* .blog-story-end{
+  position: fixed;
+  bottom: 0;
+} */
+.blog-story .story-header{
+  color: grey;
+}
+.blog-story .story-body p{
+  color: grey;
+  
+}
+.blog-story .story-header img{
+  width: 100%;
+}
+.blog-image-2{
+  width: 100%;
+}
+.blog-story .story-title{
+  color: #003060;
+  font-size: 3.5rem;
+}
+.blog-story .story-subtitle{
+  color: #003060;
+  font-size: 2.5rem;
+}
+/* // Blog-story end------------------------------- ------------------------------------ */
+
+
+.NEW_ARRIVALS{
+  font-family: Poppins-Medium;
+  animation: color_change 5s infinite;
+}
+
+.empty-list{
+  color: #003060;
+  font-family: Poppins-Light;
+}
+.empty-list h1{
+  display: block !important;
+  background: orange;
+  text-align: center !important; 
+
+}
+@keyframes color_change{
+  20% {color: pink;}
+  40% {color: #6F04FC;}
+  60% {color: blue;}
+}
+.TRENDING{
+  animation: color_change2 5s infinite;
+}
+
+@keyframes color_change2{
+  20% {color: pink;}
+  40% {color: #EFF7FF;}
+  20% {color: pink;}
+}
+
+.breads{
+  pointer-events: none;
+}
+.horizontal-product-list{
+  display: flex ;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background: rgba(100, 153, 206, .03);
+  border-radius: 10px;
+}

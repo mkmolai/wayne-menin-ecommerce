@@ -1,0 +1,60 @@
+.profile-page{
+    padding: 50px;
+    .title{
+        display: inline-block;
+        background: linear-gradient(to left, #003060, #6F04FC,orange);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        h1{
+            display: inline-block;
+            &:nth-child(2)
+            {
+                font-size: 1.7rem;
+                margin-left: 10px;
+            }
+        }
+      }
+      .summary{
+          width: 16%;
+          background: none;
+          display: flex;
+          justify-content: space-between;
+          .category{
+              display: flex;
+              justify-content: space-between;
+              h4{
+                  font-size: 1rem;
+                  font-family: 'Poppins-Light';
+                  &:nth-child(1){
+                      color: rgba(111, 4, 252, .5);
+                  }
+                  &:nth-child(2){
+                      color: #0050a0;
+                      margin-left: 10px;
+                  }
+              }
+          }
+      }
+      .profile-pic{
+          width: 300px;
+          height: 300px;
+          border-radius: 100%;
+          background-position: right !important;
+          background-size: cover !important;
+      }
+      h5{
+          color: #6F04FC;
+          font-size: 1rem;
+          font-family: Poppins-Light;
+      }
+      h4{
+          color:#003060;
+          font-size: 1rem;
+          font-family: Poppins-Light;
+      }
+
+
+      
+      
+      
+}

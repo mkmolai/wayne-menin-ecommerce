@@ -1,0 +1,47 @@
+@font-face{
+    font-family: Handlee;
+    src: url('./Handlee/Handlee-Regular.ttf');
+}
+
+@font-face{
+    font-family: Kaushan Script;
+    src: url('./Kaushan_Script/KaushanScript-Regular.ttf');
+}
+
+@font-face{
+    font-family: Merienda;
+    src: url('./Merienda/Merienda-Bold.ttf');
+}
+
+@font-face{
+    font-family: MontserratAlternates;
+    src: url('./Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf');
+}
+@font-face{
+    font-family: MontserratAlternates2;
+    src: url('./Montserrat_Alternates/MontserratAlternates-Light.ttf');
+}
+@font-face{
+    font-family: MontserratAlternates3;
+    src: url('./Montserrat_Alternates/MontserratAlternates-Medium.ttf');
+}
+@font-face{
+    font-family: MontserratAlternates4;
+    src: url('./Montserrat_Alternates/MontserratAlternates-Regular.ttf');
+}
+@font-face{
+    font-family: Poppins;
+    src: url('./Poppins-Bold.ttf');
+}
+@font-face{
+    font-family: Poppins-Light;
+    src: url('./Poppins-Light.ttf');
+}
+@font-face{
+    font-family: Poppins-Medium;
+    src: url('./Poppins-Medium.ttf');
+}
+@font-face{
+    font-family: Saira;
+    src: url('./SairaStencilOne-Regular.ttf');
+}
